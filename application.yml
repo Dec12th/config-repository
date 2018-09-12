@@ -1,0 +1,15 @@
+server:
+  tomcat:
+    uri-encoding:UTF-8
+  port: 9001
+  context-path: /feign-demo
+
+spring:
+  application:
+    name: feign-demo
+
+eureka:
+  client:
+    serviceUrl:
+#      defaultZone: http://baily:123456@localhost:1111/eureka
+      defaultZone: http://localhost:1111/eureka
